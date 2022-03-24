@@ -12,9 +12,14 @@ const Contact = () => {
             the readable content of a page when looking at its layout. The point
             of using Lorem Ipsum is that it has
           </p>
-          <form className="contact-form" action="">
+          <form
+            className="contact-form"
+            action="https://formspree.io/f/mpzbjaeg"
+            method="POST"
+          >
             <input
               type="email"
+              name="email"
               className="form-input"
               placeholder="enter email"
             />
